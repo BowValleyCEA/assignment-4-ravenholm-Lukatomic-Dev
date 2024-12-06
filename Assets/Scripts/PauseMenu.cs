@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenu;
+    [SerializeField] public GameObject pauseMenu;
     public static bool GameIsPaused = false;
 
     // Update is called once per frame
