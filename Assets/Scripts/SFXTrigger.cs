@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Trigger : MonoBehaviour
+public class SFXTrigger : MonoBehaviour
 {
     [SerializeField] UnityEvent onTriggerEnter;
     [SerializeField] UnityEvent onTriggerExit;
@@ -16,6 +16,5 @@ public class Trigger : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         onTriggerExit.Invoke();
-
     }
 }

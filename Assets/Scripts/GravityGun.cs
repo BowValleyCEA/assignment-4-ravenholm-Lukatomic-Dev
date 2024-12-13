@@ -1,6 +1,3 @@
-//Tutorial I used for reference
-//https://www.youtube.com/playlist?list=PLoaQriBLXcb2-L3G9Q1G0d4TcU_Gv8SFt
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
